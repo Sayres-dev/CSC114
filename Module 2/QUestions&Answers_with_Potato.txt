@@ -1,0 +1,104 @@
+Module 2 Potato V2 Question Answers
+
+Inital Prompt:hey this is what we did in class and i have a markdown of the slides. i also have to answer some questions can you help with the answers for the questions. with the slide mark down file A_Non_Technical_Intro_to_Deep_Learning into chat.
+
+
+Response to Intial Response:
+
+Yeah drop the markdown, I'll take a look. And send the questions too — let's just knock them out.
+
+The doc read clean. Hot-and-cold is genuinely one of the better ways I've seen gradient descent explained for non-math people. Whoever wrote that had the right instincts. The Teachable Machine section especially — that's the kind of thing that actually sticks.
+
+What questions do you need answered?
+
+
+Question 1:
+
+How is "Hot/Cold" related to gradient descent?
+
+Answer:
+
+Okay so the doc actually explains this pretty well, here's how to say it in your own words:
+
+The Hot/Cold game is a direct analogy for how gradient descent works. In the game, you're blindly moving around a room trying to find a hidden treat, and someone tells you "warmer" or "colder" with every step. You can't see the target — you just follow the feedback until you find it.
+
+Gradient descent works the same way. The "treat" is the lowest possible loss — the point where the network is making the fewest wrong predictions. Each "step" is a small adjustment to the network's dials (weights and biases). "Warmer or colder" is the gradient — the math that tells the network which direction to nudge each dial to reduce wrongness, and by how much.
+
+You repeat that loop — nudge, check, nudge toward better — over and over. That's gradient descent. The name is just a fancy way of saying "keep stepping downhill toward the lowest loss."
+
+Two details from the game that carry over directly:
+
+**Step size = learning rate.** Lunge too big and you overshoot the target and bounce around it. Too small and you get there eventually but it takes forever.
+
+**The fake warm spot = local minimum.** If there's a pretty warm corner near the door, you might stop there and never find the actually warmest spot across the room. Networks run into this too — they find a "good enough" dial setting and stop, which isn't always the best one.
+
+That's the whole answer. If you want to compress it for a short response: gradient descent is Hot/Cold, but played in 13,000 directions simultaneously, with a math trick called backpropagation doing the "warmer/colder" call for every single dial at once.
+
+
+Question 2:
+
+Why, when teaching to recognize "Image A or B", do we need three states that we train the model to recognize?
+
+Response:
+
+Good question — and the doc actually covers this with the Teachable Machine exercise, specifically the part where it tells you to poke at it on purpose.
+
+The reason you need a third class is because the model **only knows what you teach it.**
+
+If you train it on Thumbs Up and Thumbs Down, those are the only two answers it has. Show it literally anything else — your face, a coffee mug, an empty wall — and it will still confidently pick one of the two. It has no concept of "neither." It wasn't trained to say "I don't know," so it never will.
+
+The third state is essentially an **"everything else" or "none of the above" class.** You train it on examples of things that are neither A nor B, so it has somewhere to put inputs that don't match. Without it, the model will just force every input into whichever of the two classes it slightly resembles more — with full confidence, wrong or not.
+
+The doc flags this directly — that confident wrongness is the whole point of Section 6. A network trained only on neat centered digits will look at random TV static and announce "that's a 5!" It isn't broken. It's doing exactly what it was trained to do. It just wasn't trained to handle the edge cases.
+
+So the short answer: two states teaches the model to always pick A or B. The third state teaches it that sometimes the answer is neither — which is a lot closer to how the real world actually works.
+
+
+Question 3: 
+
+Which type of Teachable Machines model did you make? How well did it seem to do compared to other groups' models?
+
+Response:
+
+Compiling shaders on this one.
+
+I can't answer that one for you — that's asking about your specific classroom experience, what your group actually built, and how it compared to the other groups in the room. That's stuff only you know. I wasn't there.
+
+What I *can* tell you is the setup the doc describes: it walks you through an **Image Project using the Standard image model** on Teachable Machine — two classes minimum, webcam input, trained in the browser. That's the type. But how well *your* model performed versus everyone else's? That's your observation to write down, not mine to fabricate.
+
+Think back to the session — did your model get confused easily? Did it hold up when you moved your hand around or changed the angle? Did another group's model do noticeably better or worse? That's what the question is actually asking for, and your honest answer from being in the room is worth more than anything I could guess at.
+
+Write down what you actually remember and I'll help you clean it up into a solid answer.
+
+
+Question 4:
+
+What skills and workflows do I personally (the student running this prompt) need to develop, in order to work with Python notebooks? (Assume that a IPYNB file is provided by the instructor.)
+
+Response:
+
+Okay this one I can actually dig into properly. If the instructor is handing you a pre-built `.ipynb` file, here's what you realistically need to know:
+
+**Environment Setup**
+You need to be able to open and run the notebook in the first place. That means either installing Jupyter locally (usually through Anaconda, which bundles everything) or using a browser-based option like Google Colab where you just upload the file and go. Colab is honestly the faster on-ramp if you just need to run something the instructor gave you.
+
+**Reading Cell Structure**
+Notebooks are split into cells — some are code, some are markdown text. You need to understand that you run them in order, top to bottom, and that skipping cells or running them out of sequence breaks things. This trips people up constantly.
+
+**Running and Re-Running Cells**
+Shift+Enter runs a cell and moves to the next. You need to know how to run individual cells, run all cells at once, and restart the kernel when something goes sideways (which it will).
+
+**Reading Output**
+Results, charts, and errors all print directly below the cell that generated them. You need to be comfortable reading those outputs — especially error messages, which Python is not subtle about.
+
+**Basic Debugging**
+When a cell throws an error you need to be able to read the traceback and figure out if it's a missing library, a variable that wasn't defined yet, or a cell that needed to run first.
+
+**Package Installation**
+Sometimes a notebook needs a library that isn't installed. You'll see `!pip install [package]` at the top of those cells. You need to know what that line does and not be scared of it.
+
+That's the realistic skill set for a student working with instructor-provided notebooks. You're not writing them from scratch — you're reading, running, and interpreting. The ceiling is lower than it sounds.
+
+Given you've already shipped BioSync with Flask and SQLite, none of this is going to be a wall for you. It's just a different interface than what you're used to.
+
+
