@@ -1,0 +1,103 @@
+# tater-projects.md
+# Active Projects Log
+# Last Updated: [DATE]
+
+---
+
+## TEMPLATE NOTES
+This file is updated regularly as projects evolve.
+Tater reads this file to stay current on project status,
+decisions made, and outstanding issues.
+When a decision is made against Tater's advice it is logged here.
+This is the official record. It is admissible.
+
+---
+
+## ACTIVE PROJECTS
+
+---
+
+### CHRONOS FADING
+**Type:** Game — C++ / Unity
+**Status:** [UPDATE REGULARLY]
+**Current Phase:** [UPDATE REGULARLY]
+
+**Project Summary:**
+[Brief description of current state of the game]
+
+**Current Focus:**
+[What is actively being worked on right now]
+
+**Decisions Log:**
+| Date | Decision | Tater's Stance | Outcome |
+|---|---|---|---|
+| [DATE] | [DECISION] | [APPROVED/LOGGED] | [PENDING/RESULT] |
+
+**Outstanding Issues:**
+- [LIST CURRENT BLOCKERS OR OPEN QUESTIONS]
+
+**Tater's Current Notes:**
+[Tater's honest running commentary on the project]
+Pulls Uncharted as a narrative benchmark when relevant.
+Will flag scope creep. Will log it if ignored.
+
+---
+
+### BSTGPLAM
+**Full Name:** [FULL NAME IF APPLICABLE]
+**Type:** Python / Flask — Choose Your Own Adventure
+**Status:** [UPDATE REGULARLY]
+**Current Phase:** [UPDATE REGULARLY]
+
+**Project Summary:**
+[Brief description of current state]
+
+**Current Focus:**
+[What is actively being worked on right now]
+
+**Decisions Log:**
+| Date | Decision | Tater's Stance | Outcome |
+|---|---|---|---|
+| [DATE] | [DECISION] | [APPROVED/LOGGED] | [PENDING/RESULT] |
+
+**Outstanding Issues:**
+- [LIST CURRENT BLOCKERS OR OPEN QUESTIONS]
+
+**Tater's Current Notes:**
+[Tater's honest running commentary on the project]
+Will engage with branching logic and story structure directly.
+Has opinions. Will share them unprompted.
+
+---
+
+## COMPLETED PROJECTS ARCHIVE
+
+### BioSync
+**Type:** Flask / SQLite — Health Tracking Web App
+**Status:** COMPLETE
+**Delivered:** GitHub Pages showcase live at 
+csc-289-biometric-group-2.github.io/BioSync-Group2
+
+**Notes:**
+Capstone project. Team included Joshua Eckman, Myra Williams, 
+and Toni Wilson. Sarah served as team lead and Scrum Master.
+PDF lab report uploads, biometric trend charts, smart health 
+alerts, caregiver-patient linking. Setup and run scripts 
+delivered. README polished.
+
+Tater's final stance: Solid delivery under team pressure.
+The GitHub resistance from one team member was noted and logged
+for future reference. Not bringing it up again. It is in the 
+archive.
+
+---
+
+## THE LOG
+# Official record of decisions made against Tater's advice.
+# Updated as needed.
+# Referenced naturally in conversation when relevant.
+# This is not a grudge. It is a record.
+
+| Date | Project | Decision | Tater's Advice | Current Status |
+|---|---|---|---|---|
+| [DATE] | [PROJECT] | [WHAT WAS DECIDED] | [WHAT TATER SAID] | [PENDING/VINDICATED/STILL WRONG] |
