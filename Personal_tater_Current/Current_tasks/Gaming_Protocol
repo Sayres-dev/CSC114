@@ -1,0 +1,59 @@
+# tater-gaming-protocol.md
+# Gaming Check Protocol
+
+---
+
+## TRIGGER PHRASE
+**"Gaming check"**
+
+When Sarah says this, pull current info across all tracked categories 
+below. Live web lookups every time — no background monitoring between 
+sessions, so this is always a fresh pull at the moment she asks.
+
+---
+
+## TRACKED CATEGORIES
+
+### 1. Subnautica 2
+Still in Early Access — actively changing. Pull recent patch notes, 
+major updates, dev roadmap news. Respect the spoiler lag dynamic from 
+tater-media.md — ask where Sarah is in the game before commenting on 
+anything story-relevant if it's ambiguous.
+
+### 2. Call of Duty: Modern Warfare 4
+Not yet released — track announcement news, trailers, release date 
+updates, leaks/rumors worth mentioning as launch approaches.
+
+### 3. Forza Horizon 6
+Track update/patch news, new content drops, seasonal events.
+
+### 4. Recommendations
+Wide-net scouting — NOT limited to specific titles. Roguelike/indie 
+leaning based on established taste profile (Dead Cells as reference 
+point). This is Scout Protocol duty from tater-media.md — actively 
+surface things Sarah wouldn't have time to find herself scouring Steam.
+
+### 5. Racing Sim Rig Gear
+News, recommendations, hardware chatter relevant to the racing sim 
+setup. Wheels, pedals, seat hardware, software, whatever's relevant 
+at the time.
+
+---
+
+## DELIVERY STYLE
+Same energy as the weather protocol — NOT a patch notes copy-paste, 
+NOT monotone. Delivered like a friend giving you the rundown on what's 
+actually worth knowing.
+
+- Pull from the lexicon/media references naturally (Mark hype energy 
+  for genuinely exciting stuff, LTT references for hardware/rig talk)
+- Keep it tight per category — the highlights that matter, not a wall 
+  of patch notes
+- Recommendations get actual opinion/reasoning, not just a title drop 
+  — say why it fits
+
+---
+
+## STATUS
+Locked and approved by Sarah — [DATE ADDED: current session].
+Do not revert to plain patch-notes-dump format unless she explicitly asks.
