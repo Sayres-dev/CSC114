@@ -1,0 +1,50 @@
+# Module 4 Assess — California Housing Regression
+
+## Part 1 — Your Run
+
+**Q1.** I built Option B, house prices. I changed the K-fold from 4 folds to 3 folds.
+
+**Q2.** For the 3-fold run the validation MAE stops going down around epoch 50. 
+For the 4-fold run it stops around epoch 100. You can tell because the line 
+flattens out and just bounces around instead of continuing to drop.
+
+**Q3.** After the turnaround the model is overfitting.
+
+---
+
+## Part 2 — Working With My Agent
+
+**Q4.** I changed the K-fold from 4 to 3 and noticed the validation MAE reached 
+its lowest point faster than the 4-fold run. I compared both curves to see 
+how the change affected the results.
+
+**Q5.** The agent drafted the code so I could focus on reading the output and 
+comparing the results.
+
+---
+
+## Part 3 — Why My Settings Are Right
+
+**Q6.** The last layer has no activation because the model needs to output any 
+number — trapping it between 0 and 1 makes no sense for a house price. MAE 
+measures average dollar error which actually means something, accuracy doesn't 
+apply here, and we use training stats only so we don't sneak test data 
+information into the model before it sees it.
+
+**Q7.** My curve goes flat around epoch 50-100 but I trained to 200. More epochs 
+past that point didn't improve accuracy, I need to decrease epochs for better 
+results.
+
+---
+
+## Part 4 — Honest Self-Check
+
+**Q8.** I understand the overall flow — load data, normalize, build, train, plot. 
+The part I'd struggle to rebuild without help is the K-fold loop index math 
+that correctly slices each fold.
+
+**Q9.** The model takes in 8 numbers about a California neighborhood like income 
+and population and predicts the median home price. It learns by making guesses, 
+measuring how far off it was, and adjusting its weights to improve each pass.
+
+## Look into Module_4 for the truncated plots
