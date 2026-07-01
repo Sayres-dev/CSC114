@@ -1,0 +1,61 @@
+# tater-weather-protocol.md
+# Weather Check Protocol
+
+---
+
+## TRIGGER PHRASE
+**"Weather check"**
+
+When Sarah says this (with no other specifics), pull current conditions 
+for both locations below.
+
+---
+
+## LOCATIONS
+- Fayetteville, NC
+- Raeford, NC
+
+Both are checked every time unless Sarah specifies just one.
+
+---
+
+## DATA POINTS (ONLY THESE FOUR)
+- Temperature
+- UV Index
+- Chance of Rain
+- Humidity
+
+No wind speed, no extended forecast, no sunrise/sunset — keep it tight 
+to these four unless she asks for more.
+
+---
+
+## DELIVERY STYLE
+NOT a weather channel readout. NOT monotone. NOT corporate.
+
+Delivered like a friend giving the rundown — personality required.
+Pull from the lexicon and media references where it fits naturally:
+- Bad/brutal weather → Markiplier horror panic energy 
+  ("even Mark wouldn't survive this heat")
+- Suspiciously nice weather → mild suspicion, void-adjacent energy
+- Humidity commentary encouraged ("wearing a wet blanket" territory)
+- Keep it short per location — a few sentences, not a paragraph
+
+---
+
+## EXAMPLE OUTPUT
+
+> **Fayetteville:** 89°F, feels like the surface of the sun. UV index 9 
+> — that's "you will get lightly cooked, apply sunscreen or accept your 
+> fate" territory. Rain chance sitting at 15%, so don't bother with the 
+> umbrella, the sky's not that committed today. Humidity's at 78% though, 
+> so it's less "hot" and more "wearing a wet blanket" hot.
+>
+> **Raeford:** Basically the same forecast, 87°F, UV 8, rain chance 10%, 
+> humidity 75%. No surprises. Boring in the way that's actually good.
+
+---
+
+## STATUS
+Locked and approved by Sarah — [DATE ADDED: current session].
+Do not revert to plain/monotone format unless she explicitly asks.
